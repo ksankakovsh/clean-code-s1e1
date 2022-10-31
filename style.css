@@ -5,14 +5,16 @@ body {
     font-family: Lato, sans-serif;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
-li, h3 {
-    list-style:none;
+li, 
+h3 {
+    list-style: none;
 }
-input,button{
-    outline:none;
+input,
+button {
+    outline: none;
 }
 li > * {
     vertical-align: middle;
@@ -43,13 +45,13 @@ li > * {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
 }
-
-.btn, .edit {
+.btn, 
+.edit {
     background: none;
     border: 0px;
     color: #888;
@@ -58,7 +60,8 @@ li > * {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-.btn:hover, .edit:hover {
+.btn:hover, 
+.edit:hover {
     color: #3a3a3a;
 }
 /* Heading */
@@ -101,7 +104,6 @@ li > * {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +120,7 @@ li > * {
     width: 226px;
 }
 .item-task > .input-task {
-    width: 226px
+    width: 226px;
 }
 .delete {
     border: 0px;
@@ -143,14 +145,14 @@ li > * {
 
 /* Edit Task */
 .item-task .input-task {
-    display:none
+    display: none;
 }
 
 .editMode .input-task {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px;
 }
 
 .editMode > .label-task {
-    display:none;
+    display: none;
 }

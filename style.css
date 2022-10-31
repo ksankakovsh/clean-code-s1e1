@@ -19,7 +19,7 @@ button {
 li > * {
     vertical-align: middle;
 }
-.aaa {
+.app-header {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -28,16 +28,16 @@ li > * {
 .header-img {
     width: 100%;
 }
-.aaa .more_inf {
+.header-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .app-header { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.app-body {
     display: block;
     width: 500px;
     margin: 0 auto 0;

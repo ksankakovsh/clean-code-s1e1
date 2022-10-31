@@ -108,8 +108,6 @@ li > * {
     justify-content: space-between;
     align-items: center;
 }
-
-
 .item-task > .input-check {
     margin: 0 10px;
 }
@@ -130,8 +128,7 @@ li > * {
 .delete .img-remove {
     height: 2em;
     transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
-    
+    transition: transform 200ms ease-in; 
 }
 .delete .img-remove:hover {
     transform: rotateZ(0);
@@ -147,12 +144,10 @@ li > * {
 .item-task .input-task {
     display: none;
 }
-
 .editMode .input-task {
     display: inline-block;
     width: 224px;
 }
-
 .editMode > .label-task {
     display: none;
 }
